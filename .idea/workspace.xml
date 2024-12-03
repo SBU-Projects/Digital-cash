@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="test init">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="test get_public_arguments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/initialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/initialization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733210377294</updated>
-      <workItem from="1733210413466" duration="1521000" />
+      <workItem from="1733210413466" duration="2747000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -157,7 +158,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۱۰" />
       <updated>1733211919497</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎−۰۰۰۱۱" summary="test init">
+      <option name="closed" value="true" />
+      <created>1733211962252</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۱" />
+      <updated>1733211962252</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۲" summary="test init">
+      <option name="closed" value="true" />
+      <created>1733212116948</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۲" />
+      <updated>1733212116948</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۳" summary="test get_public_arguments">
+      <option name="closed" value="true" />
+      <created>1733212134497</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۳" />
+      <updated>1733212134498</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +191,8 @@
     <MESSAGE value="generate_prime_pair" />
     <MESSAGE value="find_square_of_primitive_root" />
     <MESSAGE value="test init" />
-    <option name="LAST_COMMIT_MESSAGE" value="test init" />
+    <MESSAGE value="test get_public_arguments" />
+    <option name="LAST_COMMIT_MESSAGE" value="test get_public_arguments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -182,6 +205,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Digital_cash$main.coverage" NAME="main Coverage Results" MODIFIED="1733211356957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Digital_cash$main.coverage" NAME="main Coverage Results" MODIFIED="1733212121932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

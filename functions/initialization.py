@@ -1,4 +1,5 @@
 from sympy import isprime, nextprime, primitive_root
+import random
 
 class Initialization:
     def __init__(self, large_prime_number):
@@ -20,6 +21,12 @@ class Initialization:
         g = pow(g0, 2, self.p)
         return g
 
+    def private_key_generator(self):
+        k1 = random.randint(0, 2048)
+        for k2 in range(0, self.q):
+            if (k1 % self.q) == (k2 % self.q):
+                return (k1, k2)
+
     def set_public_arguments(self):
         print("set_public_arguments functio is called!")
         self.q = self.generate_prime_pair()
@@ -32,6 +39,11 @@ class Initialization:
             "q": self.q,
             "g": self.g
         }
-
         return data
 
+    def get_private_arguments(self):
+        keys = self.private_key_generator()
+        data = {
+            "k1": keys[0],
+            "k2": keys[1]
+        }
