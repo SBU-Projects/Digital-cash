@@ -6,4 +6,6 @@ class Bank:
         for n in name:
             self.x += ord(n)
 
-        print(self.x)
+    def compute_public_identifier(self):
+        p = self.public_data["p"]
+        print(p)
