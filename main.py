@@ -1,16 +1,13 @@
-# This is a sample Python script.
+from sympy import isprime, nextprime
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def generate_prime_pair():
+    p = 2  # Start with the smallest prime number
+    while True:
+        p = nextprime(p)  # Find the next prime number
+        q = (p - 1) // 2  # Calculate q
+        if isprime(q):  # Check if q is also prime
+            return p, q
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Generate the prime pair
+prime_p, prime_q = generate_prime_pair()
+prime_p, prime_q
