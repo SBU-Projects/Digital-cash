@@ -16,7 +16,7 @@ class Bank:
 
     def get_public_idetifiers(self):
         data = {
-            "id": self.compute_public_identifier()
+            "id": self.compute_public_identifier(),
             "name": self.name
         }
 
