@@ -6,4 +6,4 @@ print(init1.get_public_arguments())
 print(init1.get_private_arguments())
 
 bank1 = Bank("Dr.Ziba Eslami", init1.get_public_arguments())
-print(bank1.compute_public_identifier())
+print(bank1.get_public_idetifiers())
