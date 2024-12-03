@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="test get_public_arguments">
+    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="test init">
+      <change afterPath="$PROJECT_DIR$/functions/bank.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/initialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/initialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733210377294</updated>
-      <workItem from="1733210413466" duration="2747000" />
+      <workItem from="1733210413466" duration="3732000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -179,7 +180,56 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۱۳" />
       <updated>1733212134498</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL‎−۰۰۰۱۴" summary="test get_private_arguments">
+      <option name="closed" value="true" />
+      <created>1733213537567</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۴" />
+      <updated>1733213537567</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۵" summary="test get_private_arguments">
+      <option name="closed" value="true" />
+      <created>1733213550879</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۵" />
+      <updated>1733213550880</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۶" summary="test get_private_arguments">
+      <option name="closed" value="true" />
+      <created>1733213571892</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۶" />
+      <updated>1733213571892</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۷" summary="test get_private_arguments">
+      <option name="closed" value="true" />
+      <created>1733213640153</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۷" />
+      <updated>1733213640153</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۸" summary="test get_private_arguments">
+      <option name="closed" value="true" />
+      <created>1733213838014</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۸" />
+      <updated>1733213838014</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۹" summary="test init">
+      <option name="closed" value="true" />
+      <created>1733213896415</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۹" />
+      <updated>1733213896415</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۰" summary="test init">
+      <option name="closed" value="true" />
+      <created>1733213918625</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۰" />
+      <updated>1733213918625</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,9 +240,10 @@
     <MESSAGE value="Initialization" />
     <MESSAGE value="generate_prime_pair" />
     <MESSAGE value="find_square_of_primitive_root" />
-    <MESSAGE value="test init" />
     <MESSAGE value="test get_public_arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="test get_public_arguments" />
+    <MESSAGE value="test get_private_arguments" />
+    <MESSAGE value="test init" />
+    <option name="LAST_COMMIT_MESSAGE" value="test init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -205,6 +256,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Digital_cash$main.coverage" NAME="main Coverage Results" MODIFIED="1733212121932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Digital_cash$main.coverage" NAME="main Coverage Results" MODIFIED="1733214334727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
