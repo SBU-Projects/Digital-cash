@@ -34,10 +34,13 @@ class Initialization:
 
 
     def get_public_arguments(self):
+        keys = self.private_key_generator()
         data = {
             "p": self.p,
             "q": self.q,
-            "g": self.g
+            "g": self.g,
+            "g1": pow(self.g, keys[0], self.p),
+            "g2": pow(self.g, keys[1], self.p)
         }
         return data
 
