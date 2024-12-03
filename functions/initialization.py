@@ -4,6 +4,7 @@ class Initialization:
     def __init__(self, large_prime_number):
         print("Initializing with large prime {}".format(large_prime_number))
         self.p = large_prime_number
+        self.set_public_arguments()
 
     def generate_prime_pair(self):
         curr_p = self.p
@@ -20,6 +21,17 @@ class Initialization:
         return g
 
     def set_public_arguments(self):
+        print("set_public_arguments functio is called!")
         self.q = self.generate_prime_pair()
         self.g = self.find_square_of_primitive_root()
+
+
+    def get_public_arguments(self):
+        data = {
+            "p": self.p,
+            "q": self.q,
+            "g": self.g
+        }
+
+        return data
 

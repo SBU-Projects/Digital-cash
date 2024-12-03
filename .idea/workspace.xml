@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="find_square_of_primitive_root" />
+    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="test init">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733210377294</updated>
-      <workItem from="1733210413466" duration="1162000" />
+      <workItem from="1733210413466" duration="1521000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -120,7 +129,35 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۶" />
       <updated>1733211530443</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎−۰۰۰۰۷" summary="Initialization">
+      <option name="closed" value="true" />
+      <created>1733211701887</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
+      <updated>1733211701887</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۸" summary="generate_prime_pair">
+      <option name="closed" value="true" />
+      <created>1733211845774</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
+      <updated>1733211845774</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۹" summary="te">
+      <option name="closed" value="true" />
+      <created>1733211904293</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۹" />
+      <updated>1733211904293</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۱۰" summary="test init">
+      <option name="closed" value="true" />
+      <created>1733211919497</created>
+      <option name="number" value="LOCAL‎−۰۰۰۱۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۱۰" />
+      <updated>1733211919497</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,16 +165,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
+    <MESSAGE value="Initialization" />
     <MESSAGE value="generate_prime_pair" />
     <MESSAGE value="find_square_of_primitive_root" />
-    <option name="LAST_COMMIT_MESSAGE" value="find_square_of_primitive_root" />
+    <MESSAGE value="test init" />
+    <option name="LAST_COMMIT_MESSAGE" value="test init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>1</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
