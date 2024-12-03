@@ -22,7 +22,7 @@ class Initialization:
         return g
 
     def private_key_generator(self):
-        k1 = random.randint(0, self.q)
+        k1 = random.randint(0, 4096)
         for k2 in range(self.q, self.q + (2*self.q)):
             if (k1 % self.q) == (k2 % self.q):
                 return (k1, k2)
