@@ -47,3 +47,5 @@ class Initialization:
             "k1": keys[0],
             "k2": keys[1]
         }
+
+        return data
