@@ -2,12 +2,7 @@
 
 
 
-def find_square_of_primitive_root(p):
-    # Find a primitive root modulo p
-    g0 = primitive_root(p)
-    # Calculate the square of the primitive root modulo p
-    g = pow(g0, 2, p)
-    return g0, g
+
 
 
 
