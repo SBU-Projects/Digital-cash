@@ -16,6 +16,7 @@ def generate_partitions(m, n, current_partition=[], start=1):
     # Recursive case: Generate partitions
     partitions = []
     for first in range(start, m - n + 2):  # Ensure non-decreasing order by using `start`
+        print("first {} -> {}".format(first, generate_partitions(m - first, n - 1, current_partition + [first], first)))
         partitions += generate_partitions(m - first, n - 1, current_partition + [first], first)
     return partitions
 
