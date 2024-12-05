@@ -22,8 +22,8 @@ def generate_partitions(m, n, current_partition=[], start=1):
 
 
 # Example usage
-m = 6
-n = 2
+m = 5
+n = 3
 partitions = generate_partitions(m, n)
 print(f"Partitions of {m} into {n} parts:", partitions)
 
