@@ -10,12 +10,14 @@ class Spender:
 
         g1 = public_data['g1']
         p = public_data['p']
+        #self.I = pow(g1, self.u, p)
+
         self.I = pow(g1, self.u, p)
 
 
     def get_public_idetifiers(self):
         data = {
-            "account number": self.h,
+            "account number": self.I,
             "name": self.name
         }
 
