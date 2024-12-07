@@ -7,10 +7,11 @@ class Bank:
         for n in name:
             self.x += ord(n)
 
-    def compute_public_identifier(self):
         p = self.public_data["p"]
         g = self.public_data["g"]
-        h = pow(g, self.x, p)
+        self.h = pow(g, self.x, p)
+
+
 
         return h
 
