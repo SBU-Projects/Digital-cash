@@ -19,3 +19,11 @@ class Bank:
         }
 
         return data
+
+    def connect_with_spender(self, account_number):
+        public_data = self.public_data
+        g2 = public_data['g2']
+        p = public_data['p']
+        z_prime = pow((account_number*g2), self.x, p)
+
+        return z_prime

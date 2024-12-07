@@ -21,3 +21,8 @@ class Spender:
         }
 
         return data
+
+    def connect_with_bank(self, bank):
+        self.z_prime = bank.connect_with_spender(self.I)
+        print(self.z_prime)
+

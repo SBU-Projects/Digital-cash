@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="spender get_public_idetifiers">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="spender">
+      <change beforePath="$PROJECT_DIR$/functions/bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/bank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/spender.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/spender.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <workItem from="1733210413466" duration="4569000" />
       <workItem from="1733311405581" duration="7000" />
       <workItem from="1733392890274" duration="1717000" />
-      <workItem from="1733601042538" duration="1042000" />
+      <workItem from="1733601042538" duration="1432000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -377,7 +378,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۴۱" />
       <updated>1733602076124</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL‎−۰۰۰۴۲" summary="spender">
+      <option name="closed" value="true" />
+      <created>1733602150621</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۲" />
+      <updated>1733602150621</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۳" summary="spender">
+      <option name="closed" value="true" />
+      <created>1733602211242</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۳" />
+      <updated>1733602211242</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,9 +411,9 @@
     <MESSAGE value="bank get_public_idetifiers" />
     <MESSAGE value="comment" />
     <MESSAGE value="comment test" />
-    <MESSAGE value="spender" />
     <MESSAGE value="spender get_public_idetifiers" />
-    <option name="LAST_COMMIT_MESSAGE" value="spender get_public_idetifiers" />
+    <MESSAGE value="spender" />
+    <option name="LAST_COMMIT_MESSAGE" value="spender" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -411,6 +426,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Digital_cash$main.coverage" NAME="main Coverage Results" MODIFIED="1733395941304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Digital_cash$main.coverage" NAME="main Coverage Results" MODIFIED="1733602203359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
