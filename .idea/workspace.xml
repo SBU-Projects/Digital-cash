@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="comment test" />
+    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="spender">
+      <change beforePath="$PROJECT_DIR$/functions/spender.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/spender.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +88,7 @@
       <workItem from="1733210413466" duration="4569000" />
       <workItem from="1733311405581" duration="7000" />
       <workItem from="1733392890274" duration="1717000" />
-      <workItem from="1733601042538" duration="340000" />
+      <workItem from="1733601042538" duration="655000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -333,7 +335,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۳۵" />
       <updated>1733601294807</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL‎−۰۰۰۳۶" summary="spender">
+      <option name="closed" value="true" />
+      <created>1733601669909</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۶" />
+      <updated>1733601669910</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +361,8 @@
     <MESSAGE value="bank get_public_idetifiers" />
     <MESSAGE value="comment" />
     <MESSAGE value="comment test" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment test" />
+    <MESSAGE value="spender" />
+    <option name="LAST_COMMIT_MESSAGE" value="spender" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
