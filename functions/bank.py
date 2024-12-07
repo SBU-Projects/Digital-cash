@@ -12,12 +12,9 @@ class Bank:
         self.h = pow(g, self.x, p)
 
 
-
-        return h
-
     def get_public_idetifiers(self):
         data = {
-            "id": self.compute_public_identifier(),
+            "id": self.h,
             "name": self.name
         }
 
