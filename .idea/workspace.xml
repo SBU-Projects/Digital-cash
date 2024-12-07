@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="spender">
-      <change beforePath="$PROJECT_DIR$/functions/spender.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/spender.py" afterDir="false" />
+    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="spender get_public_idetifiers">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <workItem from="1733210413466" duration="4569000" />
       <workItem from="1733311405581" duration="7000" />
       <workItem from="1733392890274" duration="1717000" />
-      <workItem from="1733601042538" duration="655000" />
+      <workItem from="1733601042538" duration="1042000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -342,7 +342,42 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۳۶" />
       <updated>1733601669910</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL‎−۰۰۰۳۷" summary="spender">
+      <option name="closed" value="true" />
+      <created>1733601946664</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۷" />
+      <updated>1733601946664</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۳۸" summary="spender">
+      <option name="closed" value="true" />
+      <created>1733601975947</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۸" />
+      <updated>1733601975947</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۳۹" summary="spender">
+      <option name="closed" value="true" />
+      <created>1733602015515</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۹" />
+      <updated>1733602015516</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۰" summary="spender get_public_idetifiers">
+      <option name="closed" value="true" />
+      <created>1733602050903</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۰" />
+      <updated>1733602050904</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۱" summary="spender get_public_idetifiers">
+      <option name="closed" value="true" />
+      <created>1733602076124</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۱" />
+      <updated>1733602076124</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +397,8 @@
     <MESSAGE value="comment" />
     <MESSAGE value="comment test" />
     <MESSAGE value="spender" />
-    <option name="LAST_COMMIT_MESSAGE" value="spender" />
+    <MESSAGE value="spender get_public_idetifiers" />
+    <option name="LAST_COMMIT_MESSAGE" value="spender get_public_idetifiers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
