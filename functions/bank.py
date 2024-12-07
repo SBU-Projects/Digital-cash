@@ -11,6 +11,8 @@ class Bank:
         g = self.public_data["g"]
         self.h = pow(g, self.x, p)
 
+        self.conected_spenders = []
+
 
     def get_public_idetifiers(self):
         data = {
@@ -20,10 +22,18 @@ class Bank:
 
         return data
 
-    def connect_with_spender(self, account_number):
+    def connect_with_spender(self, spender_data):
+        connection = {
+            "account number": spender_data["account number"],
+            "name": spender_data["name"]
+        }
+        self.conected_spenders.append(connection)
         public_data = self.public_data
         g2 = public_data['g2']
         p = public_data['p']
-        z_prime = pow((account_number*g2), self.x, p)
+        z_prime = pow((connection["account number"]*g2), self.x, p)
 
         return z_prime
+
+    def get_conected_spenders(self):
+        return self.conected_spenders

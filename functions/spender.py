@@ -24,6 +24,6 @@ class Spender:
 
     def connect_with_bank(self, bank):
         print("{} conected to {} bank".format(self.name, bank.get_public_idetifiers()['name']))
-        self.z_prime = bank.connect_with_spender(self.I)
+        self.z_prime = bank.connect_with_spender(self.get_public_idetifiers())
 
 
