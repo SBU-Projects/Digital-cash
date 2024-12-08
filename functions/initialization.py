@@ -1,5 +1,6 @@
 from sympy import isprime, nextprime, primitive_root
 import random
+import hashlibi
 
 class Initialization:
     def __init__(self, large_prime_number):
