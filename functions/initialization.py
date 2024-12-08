@@ -84,7 +84,7 @@ class Initialization:
 
     def creating_coin(self, bank, spender):
 
-        gwBetha = bank.creating_coin_bank("gw-betha", {"spender account number": spender.get_public_idetifiers("account number")})
+        gwBetha = bank.creating_coin_bank("gw-betha", {"spender account number": spender.get_public_arguments_by_index("account number")})
         ABzab = spender.creating_coin_spender("ABzab", gwBetha)
 
         return ABzab
