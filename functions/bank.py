@@ -15,7 +15,7 @@ class Bank:
         self.conected_spenders = []
 
     def get_public_arguments_by_index(self, index):
-        public_arguments = self.get_public_arguments()
+        public_arguments = self.public_data
         data = public_arguments[index]
         return data
 
