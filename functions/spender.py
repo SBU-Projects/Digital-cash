@@ -12,7 +12,10 @@ class Spender:
         p = public_data['p']
         self.I = pow(g1, self.u, p)
 
-
+    def get_public_arguments_by_index(self, index):
+        public_arguments = self.get_public_arguments()
+        data = public_arguments[index]
+        return data
 
     def get_public_idetifiers(self):
         data = {

@@ -3,8 +3,6 @@ import random
 from cryptography.hazmat.primitives.hashes import Hash, SHA256
 from cryptography.hazmat.backends import default_backend
 
-from bank import Bank
-from spender import Spender
 
 class Initialization:
     def __init__(self, large_prime_number):

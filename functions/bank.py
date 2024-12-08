@@ -1,3 +1,4 @@
+import random
 class Bank:
     def __init__(self, name, public_data):
         print("The {} bank constructor is called!".format(name))
@@ -12,6 +13,11 @@ class Bank:
         self.h = pow(g, self.x, p)
 
         self.conected_spenders = []
+
+    def get_public_arguments_by_index(self, index):
+        public_arguments = self.get_public_arguments()
+        data = public_arguments[index]
+        return data
 
 
     def get_public_idetifiers(self):
@@ -37,3 +43,13 @@ class Bank:
 
     def get_conected_spenders(self):
         return self.conected_spenders
+
+
+    def creating_coin_bank(self, order, input_tuple):
+        if order == "gw":
+            w = random.randint(1000, 2000)
+            g = self.get_public_arguments_by_index("g")
+            p = self.get_public_arguments_by_index("p")
+            gw = pow(g, w, p)
+
+            return gw
