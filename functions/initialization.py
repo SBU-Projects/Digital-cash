@@ -60,7 +60,7 @@ class Initialization:
 
         return data
 
-    def hash_H(self, input_tuple, q):
+    def hash_H(self, input_tuple):
         q = self.get_public_arguments_by_index("q")
         print(q)
         if len(input_tuple) != 5:

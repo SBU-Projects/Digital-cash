@@ -5,7 +5,11 @@ from functions.spender import Spender
 init1 = Initialization(28871271685163)
 bank1 = Bank("Dr.Ziba Eslami", init1.get_public_arguments())
 spender1 = Spender("Sajjad", init1.get_public_arguments())
+print(init1.get_public_arguments())
+init1.hash_H((1,2,3,4,5))
 
+"""
 print(bank1.get_conected_spenders())
 spender1.connect_with_bank(bank1)
 print(bank1.get_conected_spenders())
+"""
