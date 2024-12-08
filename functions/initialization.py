@@ -3,6 +3,9 @@ import random
 from cryptography.hazmat.primitives.hashes import Hash, SHA256
 from cryptography.hazmat.backends import default_backend
 
+from bank import Bank
+from spender import Spender
+
 class Initialization:
     def __init__(self, large_prime_number):
         print("Initializing with large prime {}".format(large_prime_number))
@@ -80,3 +83,7 @@ class Initialization:
         digest.update(input_bytes)
         hash_digest = digest.finalize()
         return int.from_bytes(hash_digest, 'big') % q
+
+    def creating_coin(self, bank, spender):
+
+        return 0
