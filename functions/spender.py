@@ -26,6 +26,12 @@ class Spender:
 
         return data
 
+    def get_public_idetifiers_by_index(self, index):
+        public_idetifiers = self.get_public_idetifiers()
+        data = public_idetifiers[index]
+        return data
+
+
     def connect_with_bank(self, bank):
         print("{} conected to {} bank".format(self.name, bank.get_public_idetifiers()['name']))
         self.z_prime = bank.connect_with_spender(self.get_public_idetifiers())
