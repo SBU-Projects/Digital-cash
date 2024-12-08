@@ -6,7 +6,7 @@ init1 = Initialization(28871271685163)
 bank1 = Bank("Dr.Ziba Eslami", init1.get_public_arguments())
 spender1 = Spender("Sajjad", init1.get_public_arguments())
 spender1.connect_with_bank(bank1)
-print(spender1.creating_coin_spender(1, {"gw": 1, "betha": 1}))
+print(init1.creating_coin(bank1, spender1))
 """
 print(bank1.get_conected_spenders())
 spender1.connect_with_bank(bank1)
