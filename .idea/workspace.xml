@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="hash functions" />
+    <list default="true" id="fd1fb5b1-1ef0-4795-9d82-cd412c46db3e" name="Changes" comment="hash by cryptography">
+      <change beforePath="$PROJECT_DIR$/functions/initialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/initialization.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +89,7 @@
       <workItem from="1733311405581" duration="7000" />
       <workItem from="1733392890274" duration="1717000" />
       <workItem from="1733601042538" duration="2241000" />
-      <workItem from="1733640911712" duration="369000" />
+      <workItem from="1733640911712" duration="739000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -418,7 +420,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۴۷" />
       <updated>1733641274822</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL‎−۰۰۰۴۸" summary="hash by cryptography">
+      <option name="closed" value="true" />
+      <created>1733641392768</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۸" />
+      <updated>1733641392769</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +450,8 @@
     <MESSAGE value="spender" />
     <MESSAGE value="spender connect_with_bank" />
     <MESSAGE value="hash functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="hash functions" />
+    <MESSAGE value="hash by cryptography" />
+    <option name="LAST_COMMIT_MESSAGE" value="hash by cryptography" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -454,6 +464,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Digital_cash$main.coverage" NAME="main Coverage Results" MODIFIED="1733603229209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Digital_cash$main.coverage" NAME="main Coverage Results" MODIFIED="1733641224889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

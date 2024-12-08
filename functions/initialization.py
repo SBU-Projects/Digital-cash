@@ -1,6 +1,7 @@
 from sympy import isprime, nextprime, primitive_root
 import random
-import hashlibi
+from cryptography.hazmat.primitives.hashes import Hash, SHA256
+from cryptography.hazmat.backends import default_backend
 
 class Initialization:
     def __init__(self, large_prime_number):
@@ -45,6 +46,11 @@ class Initialization:
         }
         return data
 
+    def get_public_arguments_by_index(self, index):
+        public_arguments = self.get_public_arguments()
+        data = public_arguments[index]
+        return data
+
     def get_private_arguments(self):
         keys = self.private_key_generator()
         data = {
@@ -53,3 +59,14 @@ class Initialization:
         }
 
         return data
+
+    def hash_H(self, input_tuple, q):
+        q = self.get_public_arguments_by_index("q")
+        print(q)
+        if len(input_tuple) != 5:
+            raise ValueError("Input must be a 5-tuple of integers.")
+        input_bytes = ','.join(map(str, input_tuple)).encode('utf-8')
+        digest = Hash(SHA256(), backend=default_backend())
+        digest.update(input_bytes)
+        hash_digest = digest.finalize()
+        return int.from_bytes(hash_digest, 'big') % q
