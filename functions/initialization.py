@@ -62,11 +62,11 @@ class Initialization:
 
     def hash_H(self, input_tuple):
         q = self.get_public_arguments_by_index("q")
-        print(q)
         if len(input_tuple) != 5:
             raise ValueError("Input must be a 5-tuple of integers.")
         input_bytes = ','.join(map(str, input_tuple)).encode('utf-8')
         digest = Hash(SHA256(), backend=default_backend())
         digest.update(input_bytes)
         hash_digest = digest.finalize()
+
         return int.from_bytes(hash_digest, 'big') % q
