@@ -51,7 +51,7 @@ class Bank:
             g = self.get_public_arguments_by_index("g")
             g2 = self.get_public_arguments_by_index("g2")
             p = self.get_public_arguments_by_index("p")
-            I = input_tuple[0]
+            I = input_tuple["spender account number"]
 
             data = {
                 "gw": pow(g, w, p),
