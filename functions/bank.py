@@ -46,10 +46,16 @@ class Bank:
 
 
     def creating_coin_bank(self, order, input_tuple):
-        if order == "gw":
+        if order == "gw-betha":
             w = random.randint(1000, 2000)
             g = self.get_public_arguments_by_index("g")
+            g2 = self.get_public_arguments_by_index("g2")
             p = self.get_public_arguments_by_index("p")
-            gw = pow(g, w, p)
+            I = input_tuple[0]
 
-            return gw
+            data = {
+                "gw": pow(g, w, p),
+                "betha": pow((I*g2), w, p)
+            }
+
+            return data
